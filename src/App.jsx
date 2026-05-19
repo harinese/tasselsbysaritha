@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, ChevronDown, MapPin, Phone, Mail, Instagram, Facebook, MessageCircle } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 const App = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -437,6 +438,7 @@ const App = () => {
           </div>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
