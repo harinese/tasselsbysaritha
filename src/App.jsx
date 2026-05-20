@@ -345,7 +345,7 @@ const App = () => {
               </a>
               <div className="contact-map">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29377.024687720244!2d75.90362549999999!3d14.46860705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bba258c6809fa03%3A0xe7755403ca0ef76d!2sTassels%20By%20Saritha!5e1!3m2!1sen!2sin!4v1779285515732!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d459.01756492378615!2d75.9006523!3d14.4678552!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bba258c6809fa03%3A0xe7755403ca0ef76d!2sTassels%20By%20Saritha!5e1!3m2!1sen!2sin!4v1779289896048!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
               </div>
             </motion.div>
