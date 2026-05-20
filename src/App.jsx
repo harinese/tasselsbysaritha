@@ -328,7 +328,7 @@ const App = () => {
                 <div className="icon"><Phone size={20} /></div>
                 <div className="detail-text">
                   <h4>Phone</h4>
-                  <p>+91 84315 34540</p>
+                  <p>+91 96205 35445</p>
                 </div>
               </div>
 
@@ -340,15 +340,12 @@ const App = () => {
                 </div>
               </div>
 
-              <a href="https://wa.me/918431534540" className="whatsapp-btn" target="_blank" rel="noopener noreferrer" data-track="contact_whatsapp_btn">
+              <a href="https://wa.me/919620535445" className="whatsapp-btn" target="_blank" rel="noopener noreferrer" data-track="contact_whatsapp_btn">
                 💬 Chat on WhatsApp
               </a>
               <div className="contact-map">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d256.06573049056374!2d75.90101618215063!3d14.468001731186368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1778585808140!5m2!1sen!2sin"
-                  allowFullScreen=""
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade">
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29377.024687720244!2d75.90362549999999!3d14.46860705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bba258c6809fa03%3A0xe7755403ca0ef76d!2sTassels%20By%20Saritha!5e1!3m2!1sen!2sin!4v1779285515732!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
               </div>
             </motion.div>
