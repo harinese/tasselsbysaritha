@@ -219,12 +219,13 @@ const App = () => {
             variants={staggerContainer}
           >
             {[
-              '/gallery_images/IMG-20260320-WA0024.jpg',
+              '/gallery_images/IMG-20260320-WA0050.jpg',
               '/gallery_images/IMG-20260320-WA0010.jpg',
-              '/gallery_images/IMG-20260320-WA0013.jpg',
+              '/gallery_images/IMG-20260320-WA0029.jpg',
               '/gallery_images/IMG-20260320-WA0015.jpg',
               '/gallery_images/IMG-20260320-WA0011.jpg',
-              '/gallery_images/IMG-20260320-WA0017.jpg',
+              '/gallery_images/IMG-20260320-WA0039.jpg',
+              '/gallery_images/IMG-20260320-WA0037.jpg',
               '/gallery_images/IMG-20260320-WA0009.jpg',
               '/gallery_images/IMG-20260320-WA0020.jpg',
               '/gallery_images/IMG-20260320-WA0021.jpg'
