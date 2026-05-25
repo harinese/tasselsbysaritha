@@ -226,6 +226,7 @@ const App = () => {
               '/gallery_images/IMG-20260320-WA0011.jpg',
               '/gallery_images/IMG-20260320-WA0039.jpg',
               '/gallery_images/IMG-20260320-WA0037.jpg',
+              '/gallery_images/IMG-20260320-WA0041.jpg',
               '/gallery_images/IMG-20260320-WA0009.jpg',
               '/gallery_images/IMG-20260320-WA0020.jpg',
               '/gallery_images/IMG-20260320-WA0021.jpg'
