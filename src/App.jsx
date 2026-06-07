@@ -69,7 +69,7 @@ const App = () => {
       {/* Hero Section */}
       <section className="hero" id="hero">
         <div className="hero-bg">
-          <img src="/ai_images/saree.jpg" alt="Handcrafted silk saree tassels" />
+          <img src="/ai_images/saree.jpg" alt="Handcrafted saree kuchu and silk saree tassels by Saritha in Davanagere" />
         </div>
         <div className="hero-overlay"></div>
         <motion.div
@@ -78,8 +78,8 @@ const App = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <h1>The Art of <span className="accent">Handcrafted</span> Silk Tassels</h1>
-          <p>Every thread tells a story. At Tassels by Saritha, we weave tradition and artistry into every tassel — handcrafted with care to adorn the finest silk sarees.</p>
+          <h1>The Art of <span className="accent">Handcrafted</span> Saree Kuchu & Tassels</h1>
+          <p>Every thread tells a story. At Tassels by Saritha, we weave tradition and artistry into every saree kuchu — handcrafted tassels made with care to adorn the finest silk sarees in Davanagere and across Karnataka.</p>
           <div className="hero-btns">
             <a href="#collections" className="btn btn-primary" data-track="hero_explore_btn">Explore Collections</a>
             <a href="#contact" className="btn btn-outline" data-track="hero_quote_btn">Get a Quote</a>
@@ -98,13 +98,13 @@ const App = () => {
             variants={staggerContainer}
           >
             <motion.div className="about-image" variants={fadeInUp}>
-              <img src="/ai_images/Gemini_Generated_Image_eqqjceqqjceqqjce.jpg" alt="Artisan crafting silk tassels" />
+              <img src="/ai_images/Gemini_Generated_Image_eqqjceqqjceqqjce.jpg" alt="Artisan crafting saree kuchu and silk tassels in Davanagere" />
             </motion.div>
             <motion.div className="about-text" variants={fadeInUp}>
               <h2>Crafted with Tradition, Woven with Love</h2>
-              <p>Tassels by Saritha is a homegrown handmade tassel studio based in Davanagere, built from a passion for silk sarees and fine detailing.</p>
-              <p>From bridal collections to elegant minimal styles, every tassel is personalised to match your saree perfectly. Whether it’s a custom colour combination or a unique customer-inspired design, each piece is made with precision and passion.</p>
-              <p>  Proudly crafting personalised tassels for customers who value tradition, detail, and quality.</p>
+              <p>Tassels by Saritha is a homegrown saree kuchu and handmade tassel studio based in Davanagere, Karnataka — built from a passion for silk sarees and fine detailing. We are known for creating the best saree kuchu designs in Davanagere.</p>
+              <p>From bridal saree kuchu to elegant minimal kuchu styles, every tassel is personalised to match your saree perfectly. Whether it's a custom colour combination, designer kuchu work, or a unique customer-inspired design, each piece is made with precision and passion.</p>
+              <p>Proudly crafting personalised saree kuchu (ಸೀರೆ ಕುಚ್ಚು) and tassels for customers across Karnataka who value tradition, detail, and quality.</p>
               <div className="about-stats">
                 <div className="stat">
                   <span className="number">100%</span>
@@ -134,8 +134,8 @@ const App = () => {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <h2>Our Collections</h2>
-            <p>From elegant bridal styles to personalised custom designs, each tassel is handcrafted to complement your saree beautifully.</p>
+            <h2>Our Saree Kuchu Collections</h2>
+            <p>From elegant bridal saree kuchu to personalised custom kuchu designs, each tassel is handcrafted to complement your silk saree beautifully.</p>
           </motion.div>
 
           <motion.div
@@ -146,20 +146,20 @@ const App = () => {
             variants={staggerContainer}
           >
             {[
-              { id: 'premium', title: 'Premium Collection', desc: 'Premium handcrafted designs with fine detailing and stylish finishing for special occasions and grand silk collections.', img: '/ai_images/Gemini_Generated_Image_gzr9qxgzr9qxgzr9.jpg', badge: 'Best Seller' },
-              { id: 'bridal', title: 'Bridal Collection', desc: 'Detailed handcrafted tassels designed for bridal silk sarees with rich finishing, beads, zari, and elegant detailing.', img: '/ai_images/Gemini_Generated_Image_kpl9xhkpl9xhkpl9.jpg', badge: 'Exclusive' },
-              { id: 'classic', title: 'Classic Collection', desc: 'Simple and timeless tassel styles perfect for traditional silk sarees and everyday elegance.', img: '/ai_images/Gemini_Generated_Image_n1unein1unein1un.jpg' },
-              { id: 'custom', title: 'Custom Collections', desc: 'Have a unique design in mind? We create personalised tassels based on your saree colour, pattern, and style preferences.', img: '/gallery_images/IMG-20260320-WA0009.jpg', badge: 'Personalised' }
+              { id: 'premium', title: 'Premium Saree Kuchu', desc: 'Premium handcrafted saree kuchu designs with fine detailing and stylish finishing for special occasions and grand silk saree collections.', img: '/ai_images/Gemini_Generated_Image_gzr9qxgzr9qxgzr9.jpg', badge: 'Best Seller' },
+              { id: 'bridal', title: 'Bridal Saree Kuchu', desc: 'Detailed bridal saree kuchu designed for wedding silk sarees with rich zari work, beads, and elegant detailing. Perfect kuchu for bridal pattu sarees.', img: '/ai_images/Gemini_Generated_Image_kpl9xhkpl9xhkpl9.jpg', badge: 'Exclusive' },
+              { id: 'classic', title: 'Classic Saree Kuchu', desc: 'Simple and timeless saree kuchu styles perfect for traditional silk sarees and everyday elegance.', img: '/ai_images/Gemini_Generated_Image_n1unein1unein1un.jpg' },
+              { id: 'custom', title: 'Custom Kuchu Designs', desc: 'Have a unique kuchu design in mind? We create personalised saree kuchu based on your saree colour, pattern, and style preferences.', img: '/gallery_images/IMG-20260320-WA0009.jpg', badge: 'Personalised' }
             ].map(col => (
               <motion.div className="category-card" key={col.id} variants={fadeInUp} whileHover={{ y: -8 }} onClick={() => setSelectedCollection(col)} style={{ cursor: 'pointer' }} data-track={`collection_card_${col.id}`}>
                 <div className="category-card-img">
-                  <img src={col.img} alt={col.title} />
+                  <img src={col.img} alt={`${col.title} - saree kuchu design`} />
                   {col.badge && <span className="category-card-badge">{col.badge}</span>}
                 </div>
                 <div className="category-card-body">
                   <h3>{col.title}</h3>
                   <p>{col.desc}</p>
-                  <span className="view-link">View Catalogue →</span>
+                  <span className="view-link">View Kuchu Designs →</span>
                 </div>
               </motion.div>
             ))}
@@ -208,8 +208,8 @@ const App = () => {
       <section className="gallery section-padding" id="gallery">
         <div className="container">
           <motion.div className="section-header" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-            <h2>Our Work</h2>
-            <p>A glimpse into the artistry and craftsmanship behind every creation.</p>
+            <h2>Our Saree Kuchu Work</h2>
+            <p>A glimpse into the artistry and craftsmanship behind every saree kuchu and tassel creation.</p>
           </motion.div>
           <motion.div
             className="gallery-masonry"
@@ -232,7 +232,7 @@ const App = () => {
               '/gallery_images/IMG-20260320-WA0021.jpg'
             ].map((img, i) => (
               <motion.div className="gallery-masonry-item" key={i} variants={fadeInUp}>
-                <img src={img} alt={`Our Work ${i + 1}`} loading="lazy" />
+                <img src={img} alt={`Saree kuchu design ${i + 1} - handcrafted silk saree tassels Davanagere`} loading="lazy" />
               </motion.div>
             ))}
           </motion.div>
@@ -244,13 +244,13 @@ const App = () => {
         <div className="container">
           <motion.div className="section-header" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
             <h2>Customer Love</h2>
-            <p>Hear from the beautiful brides and boutiques who trust Tassels by Saritha.</p>
+            <p>Hear from the beautiful brides and boutiques who trust Tassels by Saritha for their saree kuchu needs.</p>
           </motion.div>
           <motion.div className="testimonials-grid" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={staggerContainer}>
             {[
-              { text: "The bridal tassels were absolutely breathtaking! They perfectly matched the zari on my Kanchipuram silk.", author: "Ananya Sharma" },
-              { text: "Tassels by Saritha has been supplying my boutique for two years. Their collections always sell out.", author: "Kavya, Silk Heritage Boutique" },
-              { text: "I requested a custom temple motif design for my mother's 60th birthday saree. The artisans created something so unique.", author: "Meera Reddy" }
+              { text: "The bridal saree kuchu was absolutely breathtaking! They perfectly matched the zari on my Kanchipuram silk. Best kuchu work in Davanagere!", author: "Ananya Sharma" },
+              { text: "Tassels by Saritha has been supplying saree kuchu for my boutique for two years. Their kuchu designs always sell out first.", author: "Kavya, Silk Heritage Boutique" },
+              { text: "I requested a custom kuchu design with temple motif for my mother's 60th birthday saree. The saree kuchu they created was so unique and beautiful.", author: "Meera Reddy" }
             ].map((review, i) => (
               <motion.div className="testimonial-card" key={i} variants={fadeInUp}>
                 <div className="testimonial-stars">★★★★★</div>
@@ -267,14 +267,16 @@ const App = () => {
         <div className="container">
           <motion.div className="section-header" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
             <h2>Frequently Asked Questions</h2>
-            <p>Everything you need to know about our handcrafted tassels.</p>
+            <p>Everything you need to know about our handcrafted saree kuchu and tassels.</p>
           </motion.div>
           <div className="faq-list">
             {[
-              { q: "Do you offer custom designs based on saree colour?", a: "Yes. We create customised tassels based on your saree colour, design, and style preferences to ensure a perfect match." },
-              { q: "How long does an order take to complete?", a: "Most orders are completed within a few days depending on the design and quantity. Bridal and custom orders may take a little longer." },
-              { q: "Do you ship outside Davanagere?", a: "Yes. Orders can be shipped to other cities based on availability and order size." },
-              { q: "Can I share my own tassel design reference?", a: "Absolutely. You can share inspiration images or design ideas, and we’ll create a customised version based on your preference." }
+              { q: "What is saree kuchu and where can I get the best saree kuchu in Davanagere?", a: "Saree kuchu (also called saree tassels or ಸೀರೆ ಕುಚ್ಚು in Kannada) is the decorative knotted fringe attached to silk sarees. Tassels by Saritha is the best place for handcrafted saree kuchu in Davanagere, Karnataka." },
+              { q: "Do you offer custom saree kuchu designs based on saree colour?", a: "Yes. We create customised saree kuchu designs based on your saree colour, pattern, and style preferences. Whether it's bridal kuchu or designer kuchu work, we ensure a perfect match." },
+              { q: "How long does a saree kuchu order take to complete?", a: "Most saree kuchu orders are completed within a few days depending on the design and quantity. Bridal saree kuchu and custom designer kuchu may take a little longer." },
+              { q: "Do you ship saree kuchu outside Davanagere?", a: "Yes. We ship saree kuchu and tassels across Karnataka and other cities in India based on availability and order size." },
+              { q: "Can I share my own saree kuchu design reference?", a: "Absolutely. You can share inspiration images or kuchu design ideas, and we'll create a customised saree kuchu version based on your preference." },
+              { q: "What types of saree kuchu designs do you offer?", a: "We offer bridal saree kuchu, premium designer kuchu, classic kuchu designs, and fully custom saree kuchu. Our kuchu work includes crochet kuchu, beaded kuchu, zari kuchu, and thread kuchu for pattu and silk sarees." }
             ].map((faq, i) => (
               <div className={`faq-item ${activeFaq === i ? 'active' : ''}`} key={i}>
                 <button className="faq-question" onClick={() => setActiveFaq(activeFaq === i ? null : i)}>
@@ -310,13 +312,13 @@ const App = () => {
         <div className="container">
           <motion.div className="section-header" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
             <h2>Get in Touch</h2>
-            <p>Have a special saree that needs the perfect tassel? We'd love to help.</p>
+            <p>Have a special saree that needs the perfect saree kuchu? We'd love to help create the best kuchu design for your silk saree.</p>
           </motion.div>
 
           <div className="contact-grid">
             <motion.div className="contact-info" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-              <h3>Let's Create Something Beautiful</h3>
-              <p>Whether you’re looking for bridal tassels, classic designs, or a completely customised style, we’re here to help bring your idea to life.</p>
+              <h3>Let's Create Beautiful Saree Kuchu</h3>
+              <p>Whether you're looking for bridal saree kuchu, classic kuchu designs, or a completely customised kuchu style, we're here to help bring your vision to life. Best saree kuchu work in Davanagere, Karnataka.</p>
 
               <div className="contact-detail">
                 <div className="icon"><MapPin size={20} /></div>
@@ -403,7 +405,7 @@ const App = () => {
           <div className="footer-grid">
             <div className="footer-brand">
               <div className="brand-text">Tassels <span className="brand-accent">by Saritha</span></div>
-              <p>Handcrafted silk saree tassels, woven with tradition and love in Davanagere. Elevating the beauty of every saree.</p>
+              <p>Handcrafted saree kuchu and silk saree tassels (ಸೀರೆ ಕುಚ್ಚು), woven with tradition and love in Davanagere, Karnataka. The best saree kuchu designs for every silk saree.</p>
             </div>
             <div>
               <h4>Quick Links</h4>
@@ -427,7 +429,7 @@ const App = () => {
             </div>
           </div>
           <div className="footer-bottom">
-            <p>© 2025 Tassels by Saritha. All rights reserved.</p>
+            <p>© 2025 Tassels by Saritha — Best Saree Kuchu in Davanagere. All rights reserved.</p>
             <div className="footer-social">
               <a href="https://www.instagram.com/sai_tassels_" aria-label="Instagram" data-track="footer_instagram"><Instagram size={18} /></a>
               <a href="#" aria-label="Facebook" data-track="footer_facebook"><Facebook size={18} /></a>
